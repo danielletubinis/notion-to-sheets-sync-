@@ -1,0 +1,13 @@
+{
+  "name": "notion-to-sheets-sync",
+  "version": "1.0.0",
+  "description": "Daily sync from a Notion database to a Google Sheets tab",
+  "main": "scripts/sync.js",
+  "scripts": {
+    "sync": "node scripts/sync.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "googleapis": "^144.0.0"
+  }
+}
